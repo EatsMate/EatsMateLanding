@@ -1,0 +1,61 @@
+:root {
+  --color-primary: #1A2238; /* Deep Blue - Background */
+  --color-accent: #800020;  /* Bordeaux - CTA/Accents */
+  --color-text-light: #FFFFFF;
+  --color-text-dark: #1A2238;
+  --color-bg-light: #F5F5F5;
+  
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-text-light);
+  background-color: var(--color-primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: block; /* Removed flex center from default vite */
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}

@@ -1,0 +1,48 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: 1px solid transparent;
+    gap: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+/* Primary: Bordeaux */
+.btn-primary {
+    background-color: var(--color-accent);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #990026;
+    /* Lighter Bordeaux */
+    color: white;
+    box-shadow: 0 6px 12px rgba(128, 0, 32, 0.3);
+}
+
+/* Secondary: White/Outline? or Dark? */
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: var(--color-primary);
+}
+
+/* Store Buttons Context */
+.btn-store {
+    min-width: 180px;
+}
